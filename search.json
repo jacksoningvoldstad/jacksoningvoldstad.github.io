@@ -18,6 +18,13 @@
     "href": "index.html",
     "title": "Latest posts",
     "section": "",
-    "text": "About Jackson Ingvoldstad\n\n\n\nlowercaseword\n\nlowercaseword\n\nlowercaseword\n\n\n\n\n\n\n\n\n\nNov 4, 2025\n\n\nJackson Ingvoldstad\n\n\n\n\n\nNo matching items"
+    "text": "Kyrie Irving and his ability to stay poised amongst his controversies.\n\n\n\nbasketball\n\nnba\n\n\n\n\n\n\n\n\n\nNov 17, 2025\n\n\nJackson Ingvoldstad\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Jackson Ingvoldstad\n\n\n\nlowercaseword\n\nlowercaseword\n\nlowercaseword\n\n\n\n\n\n\n\n\n\nNov 4, 2025\n\n\nJackson Ingvoldstad\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Project1.html",
+    "href": "Project1.html",
+    "title": "R Notebook",
+    "section": "",
+    "text": "This is an R Markdown Notebook. When you execute code within the notebook, the results appear beneath the code.\nTry executing this chunk by clicking the Run button within the chunk or by placing your cursor inside it and pressing Cmd+Shift+Enter.\n\nplot(cars)\n\n\n\n\n\n\n\n\nAdd a new chunk by clicking the Insert Chunk button on the toolbar or by pressing Cmd+Option+I.\nWhen you save the notebook, an HTML file containing the code and output will be saved alongside it (click the Preview button or press Cmd+Shift+K to preview the HTML file).\nThe preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike Knit, Preview does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed."
   }
 ]
