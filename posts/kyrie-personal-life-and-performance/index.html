@@ -227,7 +227,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Did the Backlash to Irving's Flat-Earther Claims Affect his Game?"</span>,</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"How &lt;span style = 'color:maroon;'&gt;Irving's EFF&lt;/span&gt; fluctuated in relation to &lt;span style = 'color:gold;'&gt;his season-average&lt;/span&gt; and &lt;span style = 'color:darkgrey;'&gt;top point guards&lt;/span&gt;"</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"How &lt;span style = 'color:maroon;'&gt;Irving's EFF&lt;/span&gt; fluctuated in relation to &lt;span style = 'color:gold;'&gt;his season-average&lt;/span&gt; and &lt;span style = 'color:darkgrey;'&gt;top point guards&lt;/span&gt; in the 2017 season."</span>,</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: HoopR | By: Jackson Ingvoldstad"</span>,</span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Game Date"</span>,</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Player Effeciency (EFF)"</span></span>
@@ -245,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">color=</span><span class="st">"darkblue"</span>, </span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">size=</span><span class="dv">3</span>)<span class="sc">+</span></span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">13</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>), </span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_textbox_simple</span>(),</span>
 <span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
@@ -328,26 +328,20 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 <span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Irving's 3-Point Shooting Percentage"</span></span>
 <span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span> </span>
 <span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>   <span class="fu">scale_x_continuous</span>(<span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">2012</span>, <span class="dv">2022</span>, <span class="dv">2025</span>))</span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>bar1<span class="sc">+</span>bar2 <span class="sc">+</span></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>   <span class="fu">plot_annotation</span>(</span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Irving Posts Career-Highs in Scoring and 3-Point Shooting in 2022"</span>,</span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Irving thrives despite missing a majority of the season due to his vaccination status"</span>,</span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: Basketball Reference | By Jackson Ingvoldstad"</span></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">&amp;</span> </span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>), </span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_textbox_simple</span>(), </span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>   <span class="fu">scale_x_continuous</span>(<span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">2012</span>, <span class="dv">2022</span>, <span class="dv">2025</span>))</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>bar1<span class="sc">+</span>bar2 <span class="sc">+</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>   <span class="fu">plot_annotation</span>(</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Irving Posts Career-Highs in Scoring and 3-Point Shooting"</span>,</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Irving thrives in the 2022 Season despite missing a majority of the season due to his vaccination status."</span>,</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: Basketball Reference | By Jackson Ingvoldstad"</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -358,7 +352,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 </div>
 </div>
 <p>Irving has made it clear that he is able to flourish while in unique situations, whether it’s in game 7 of the NBA Finals with 2 minutes left, or playing while fasting for Ramadan (for which he has notably played some of his best basketball statistically), so it is no shock that Irving was able to finish out this year with several accolades despite missing more than half of the season.</p>
-<p>Irving’s personal choices continue to be newsworthy the following year. On October 27th, 2023, Irving posted a link to a movie called <em>Hebrews to Negroes: Wake Up Black America</em> directed by. The film is notably antisemitic. In the following days, it was hoped that Irving would denounce his decision to share that film with his following, but he neglected to do so. On November 3rd, the Nets suspended Irving for 5 games without pay. Here is how Irving’s true shooting percentage (points / (2 * (field goals attempted + (.44 * free throws attempted)) compared to his peers prior to his suspension.</p>
+<p>Irving’s personal choices continue to be newsworthy the following year. On October 27th, 2023, Irving posted a link to a movie called <em>Hebrews to Negroes: Wake Up Black America</em> directed by Ronald Dalton. The film is notably antisemitic. In the following days, it was hoped that Irving would denounce his decision to share that film with his following, but he neglected to do so. On November 3rd, the Nets suspended Irving for 5 games without pay. Here is how Irving’s true shooting percentage (points / (2 * (field goals attempted + (.44 * free throws attempted)) compared to his peers prior to his suspension.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -444,23 +438,23 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 <span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="okgvybjcfx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#okgvybjcfx table {
+<div id="pufwtzcmrq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#pufwtzcmrq table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#okgvybjcfx thead, #okgvybjcfx tbody, #okgvybjcfx tfoot, #okgvybjcfx tr, #okgvybjcfx td, #okgvybjcfx th {
+#pufwtzcmrq thead, #pufwtzcmrq tbody, #pufwtzcmrq tfoot, #pufwtzcmrq tr, #pufwtzcmrq td, #pufwtzcmrq th {
   border-style: none;
 }
 
-#okgvybjcfx p {
+#pufwtzcmrq p {
   margin: 0;
   padding: 0;
 }
 
-#okgvybjcfx .gt_table {
+#pufwtzcmrq .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -486,12 +480,12 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-left-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_caption {
+#pufwtzcmrq .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#okgvybjcfx .gt_title {
+#pufwtzcmrq .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -503,7 +497,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-width: 0;
 }
 
-#okgvybjcfx .gt_subtitle {
+#pufwtzcmrq .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -515,7 +509,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-top-width: 0;
 }
 
-#okgvybjcfx .gt_heading {
+#pufwtzcmrq .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -527,13 +521,13 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_bottom_border {
+#pufwtzcmrq .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_col_headings {
+#pufwtzcmrq .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -548,7 +542,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_col_heading {
+#pufwtzcmrq .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -568,7 +562,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   overflow-x: hidden;
 }
 
-#okgvybjcfx .gt_column_spanner_outer {
+#pufwtzcmrq .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -580,15 +574,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 4px;
 }
 
-#okgvybjcfx .gt_column_spanner_outer:first-child {
+#pufwtzcmrq .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#okgvybjcfx .gt_column_spanner_outer:last-child {
+#pufwtzcmrq .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#okgvybjcfx .gt_column_spanner {
+#pufwtzcmrq .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -600,11 +594,11 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   width: 100%;
 }
 
-#okgvybjcfx .gt_spanner_row {
+#pufwtzcmrq .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#okgvybjcfx .gt_group_heading {
+#pufwtzcmrq .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -630,7 +624,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   text-align: left;
 }
 
-#okgvybjcfx .gt_empty_group_heading {
+#pufwtzcmrq .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -645,15 +639,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   vertical-align: middle;
 }
 
-#okgvybjcfx .gt_from_md > :first-child {
+#pufwtzcmrq .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#okgvybjcfx .gt_from_md > :last-child {
+#pufwtzcmrq .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#okgvybjcfx .gt_row {
+#pufwtzcmrq .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -672,7 +666,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   overflow-x: hidden;
 }
 
-#okgvybjcfx .gt_stub {
+#pufwtzcmrq .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -685,7 +679,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#okgvybjcfx .gt_stub_row_group {
+#pufwtzcmrq .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -699,15 +693,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   vertical-align: top;
 }
 
-#okgvybjcfx .gt_row_group_first td {
+#pufwtzcmrq .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#okgvybjcfx .gt_row_group_first th {
+#pufwtzcmrq .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#okgvybjcfx .gt_summary_row {
+#pufwtzcmrq .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -717,16 +711,16 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#okgvybjcfx .gt_first_summary_row {
+#pufwtzcmrq .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_first_summary_row.thick {
+#pufwtzcmrq .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#okgvybjcfx .gt_last_summary_row {
+#pufwtzcmrq .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -736,7 +730,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_grand_summary_row {
+#pufwtzcmrq .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -746,7 +740,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#okgvybjcfx .gt_first_grand_summary_row {
+#pufwtzcmrq .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -756,7 +750,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-top-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_last_grand_summary_row_top {
+#pufwtzcmrq .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -766,11 +760,11 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_striped {
+#pufwtzcmrq .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#okgvybjcfx .gt_table_body {
+#pufwtzcmrq .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -779,7 +773,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_footnotes {
+#pufwtzcmrq .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -793,7 +787,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_footnote {
+#pufwtzcmrq .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -802,7 +796,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#okgvybjcfx .gt_sourcenotes {
+#pufwtzcmrq .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -816,7 +810,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#okgvybjcfx .gt_sourcenote {
+#pufwtzcmrq .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -824,72 +818,72 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#okgvybjcfx .gt_left {
+#pufwtzcmrq .gt_left {
   text-align: left;
 }
 
-#okgvybjcfx .gt_center {
+#pufwtzcmrq .gt_center {
   text-align: center;
 }
 
-#okgvybjcfx .gt_right {
+#pufwtzcmrq .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#okgvybjcfx .gt_font_normal {
+#pufwtzcmrq .gt_font_normal {
   font-weight: normal;
 }
 
-#okgvybjcfx .gt_font_bold {
+#pufwtzcmrq .gt_font_bold {
   font-weight: bold;
 }
 
-#okgvybjcfx .gt_font_italic {
+#pufwtzcmrq .gt_font_italic {
   font-style: italic;
 }
 
-#okgvybjcfx .gt_super {
+#pufwtzcmrq .gt_super {
   font-size: 65%;
 }
 
-#okgvybjcfx .gt_footnote_marks {
+#pufwtzcmrq .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#okgvybjcfx .gt_asterisk {
+#pufwtzcmrq .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#okgvybjcfx .gt_indent_1 {
+#pufwtzcmrq .gt_indent_1 {
   text-indent: 5px;
 }
 
-#okgvybjcfx .gt_indent_2 {
+#pufwtzcmrq .gt_indent_2 {
   text-indent: 10px;
 }
 
-#okgvybjcfx .gt_indent_3 {
+#pufwtzcmrq .gt_indent_3 {
   text-indent: 15px;
 }
 
-#okgvybjcfx .gt_indent_4 {
+#pufwtzcmrq .gt_indent_4 {
   text-indent: 20px;
 }
 
-#okgvybjcfx .gt_indent_5 {
+#pufwtzcmrq .gt_indent_5 {
   text-indent: 25px;
 }
 
-#okgvybjcfx .katex-display {
+#pufwtzcmrq .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#okgvybjcfx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#pufwtzcmrq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1006,7 +1000,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 <span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
 <span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(</span>
 <span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Uncle Drew Excels in Shooting Percentage Post-Suspension"</span>,</span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span> <span class="st">"Kyrie becomes on of the best true shooters in the league in the 2022-2023 season after his suspension."</span></span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span> <span class="st">"Irving becomes on of the best true shooters in the league in the 2022-2023 season after his suspension."</span></span>
 <span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">|&gt;</span></span>
 <span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_source_note</span>(</span>
 <span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">source_note =</span> <span class="fu">md</span>(<span class="st">"Data as of Nov. 17. **Source:** HoopR | **By:** Jackson Ingvoldstad"</span>)</span>
@@ -1037,23 +1031,23 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 <span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="zzzzyiaoqc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#zzzzyiaoqc table {
+<div id="uigecehvmm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#uigecehvmm table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#zzzzyiaoqc thead, #zzzzyiaoqc tbody, #zzzzyiaoqc tfoot, #zzzzyiaoqc tr, #zzzzyiaoqc td, #zzzzyiaoqc th {
+#uigecehvmm thead, #uigecehvmm tbody, #uigecehvmm tfoot, #uigecehvmm tr, #uigecehvmm td, #uigecehvmm th {
   border-style: none;
 }
 
-#zzzzyiaoqc p {
+#uigecehvmm p {
   margin: 0;
   padding: 0;
 }
 
-#zzzzyiaoqc .gt_table {
+#uigecehvmm .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1079,12 +1073,12 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-left-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_caption {
+#uigecehvmm .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#zzzzyiaoqc .gt_title {
+#uigecehvmm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1096,7 +1090,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-width: 0;
 }
 
-#zzzzyiaoqc .gt_subtitle {
+#uigecehvmm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1108,7 +1102,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-top-width: 0;
 }
 
-#zzzzyiaoqc .gt_heading {
+#uigecehvmm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1120,13 +1114,13 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_bottom_border {
+#uigecehvmm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_col_headings {
+#uigecehvmm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1141,7 +1135,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_col_heading {
+#uigecehvmm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1161,7 +1155,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   overflow-x: hidden;
 }
 
-#zzzzyiaoqc .gt_column_spanner_outer {
+#uigecehvmm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1173,15 +1167,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 4px;
 }
 
-#zzzzyiaoqc .gt_column_spanner_outer:first-child {
+#uigecehvmm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zzzzyiaoqc .gt_column_spanner_outer:last-child {
+#uigecehvmm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zzzzyiaoqc .gt_column_spanner {
+#uigecehvmm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1193,11 +1187,11 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   width: 100%;
 }
 
-#zzzzyiaoqc .gt_spanner_row {
+#uigecehvmm .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#zzzzyiaoqc .gt_group_heading {
+#uigecehvmm .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1223,7 +1217,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   text-align: left;
 }
 
-#zzzzyiaoqc .gt_empty_group_heading {
+#uigecehvmm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1238,15 +1232,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   vertical-align: middle;
 }
 
-#zzzzyiaoqc .gt_from_md > :first-child {
+#uigecehvmm .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zzzzyiaoqc .gt_from_md > :last-child {
+#uigecehvmm .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zzzzyiaoqc .gt_row {
+#uigecehvmm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1265,7 +1259,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   overflow-x: hidden;
 }
 
-#zzzzyiaoqc .gt_stub {
+#uigecehvmm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1278,7 +1272,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#zzzzyiaoqc .gt_stub_row_group {
+#uigecehvmm .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1292,15 +1286,15 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   vertical-align: top;
 }
 
-#zzzzyiaoqc .gt_row_group_first td {
+#uigecehvmm .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#zzzzyiaoqc .gt_row_group_first th {
+#uigecehvmm .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#zzzzyiaoqc .gt_summary_row {
+#uigecehvmm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1310,16 +1304,16 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#zzzzyiaoqc .gt_first_summary_row {
+#uigecehvmm .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_first_summary_row.thick {
+#uigecehvmm .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#zzzzyiaoqc .gt_last_summary_row {
+#uigecehvmm .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1329,7 +1323,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_grand_summary_row {
+#uigecehvmm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1339,7 +1333,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#zzzzyiaoqc .gt_first_grand_summary_row {
+#uigecehvmm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1349,7 +1343,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-top-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_last_grand_summary_row_top {
+#uigecehvmm .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1359,11 +1353,11 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_striped {
+#uigecehvmm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zzzzyiaoqc .gt_table_body {
+#uigecehvmm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1372,7 +1366,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-bottom-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_footnotes {
+#uigecehvmm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1386,7 +1380,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_footnote {
+#uigecehvmm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1395,7 +1389,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#zzzzyiaoqc .gt_sourcenotes {
+#uigecehvmm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1409,7 +1403,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   border-right-color: #D3D3D3;
 }
 
-#zzzzyiaoqc .gt_sourcenote {
+#uigecehvmm .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1417,72 +1411,72 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
   padding-right: 5px;
 }
 
-#zzzzyiaoqc .gt_left {
+#uigecehvmm .gt_left {
   text-align: left;
 }
 
-#zzzzyiaoqc .gt_center {
+#uigecehvmm .gt_center {
   text-align: center;
 }
 
-#zzzzyiaoqc .gt_right {
+#uigecehvmm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zzzzyiaoqc .gt_font_normal {
+#uigecehvmm .gt_font_normal {
   font-weight: normal;
 }
 
-#zzzzyiaoqc .gt_font_bold {
+#uigecehvmm .gt_font_bold {
   font-weight: bold;
 }
 
-#zzzzyiaoqc .gt_font_italic {
+#uigecehvmm .gt_font_italic {
   font-style: italic;
 }
 
-#zzzzyiaoqc .gt_super {
+#uigecehvmm .gt_super {
   font-size: 65%;
 }
 
-#zzzzyiaoqc .gt_footnote_marks {
+#uigecehvmm .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#zzzzyiaoqc .gt_asterisk {
+#uigecehvmm .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#zzzzyiaoqc .gt_indent_1 {
+#uigecehvmm .gt_indent_1 {
   text-indent: 5px;
 }
 
-#zzzzyiaoqc .gt_indent_2 {
+#uigecehvmm .gt_indent_2 {
   text-indent: 10px;
 }
 
-#zzzzyiaoqc .gt_indent_3 {
+#uigecehvmm .gt_indent_3 {
   text-indent: 15px;
 }
 
-#zzzzyiaoqc .gt_indent_4 {
+#uigecehvmm .gt_indent_4 {
   text-indent: 20px;
 }
 
-#zzzzyiaoqc .gt_indent_5 {
+#uigecehvmm .gt_indent_5 {
   text-indent: 25px;
 }
 
-#zzzzyiaoqc .katex-display {
+#uigecehvmm .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#zzzzyiaoqc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#uigecehvmm div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1493,7 +1487,7 @@ In 2021, Irving, who was now a part of the Brooklyn Nets, made it clear that he 
 <td colspan="2" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Uncle Drew Excels in Shooting Percentage Post-Suspension</td>
 </tr>
 <tr class="gt_heading even">
-<td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Kyrie becomes on of the best true shooters in the league in the 2022-2023 season after his suspension.</td>
+<td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Irving becomes on of the best true shooters in the league in the 2022-2023 season after his suspension.</td>
 </tr>
 <tr class="gt_col_headings header">
 <th id="athlete_display_name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Player</th>
